@@ -1,0 +1,75 @@
+/*
+ *= require_self
+ *= require_tree .
+ */
+
+@import "whitespace-reset"
+
+body
+  font-family: "Roboto"
+  color: #222
+  font-size: 16px
+  background: #EEEEEE
+
+section#header
+  background: #D93600
+  height: 100px
+  border-bottom: 1px solid #B22D00
+  h1
+    color: white
+    text-align: center
+    font-weight: normal
+    font-size: 45px
+    padding: 20px 0 0 0
+    cursor: pointer
+  nav
+    position: absolute
+    top: 10px
+    right: 15px
+    a, a:hover, a:visited, a:active
+      color: white
+      text-decoration: none
+      font-family: "Roboto"
+      font-size: 14px
+      &:hover
+        text-decoration: underline
+
+section#main
+  margin: 0 auto
+  width: 85%
+  background: white
+  min-height: 450px
+  padding: 20px
+  max-width: 950px
+  border-right: 1px solid #E4E4E4
+  border-left: 1px solid #E4E4E4
+  border-bottom: 1px solid #E4E4E4
+
+  article
+    max-width: 640px
+    margin: 0 auto
+    line-height: 1.6
+    h1
+      font-size: 22px
+      font-weight: bold
+      margin: 0 0 25px 0
+
+  article#welcome
+    background: #FEF9F2
+    padding: 10px 20px
+
+  article#post_list
+    padding: 30px 0 0 0
+    .date
+      font-family: Verdana
+      font-size: 15px
+      color: #666666
+      display: inline-block
+      margin: 0 0 25px 0
+    .title
+      margin-left: 30px
+      font-size: 18px
+      font-weight: bold
+      font-family: "Roboto"
+      display: inline-block
+      min-width: 180px
