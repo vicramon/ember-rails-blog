@@ -1,0 +1,9 @@
+section#main
+  article#welcome
+    |Hi! Welcome to Vic on Ember. I’m Vic Ramon, an Ember consultant and enthusiast. This blog is where I share share tips, tricks, code samples, and cool things happening in the Ember community.
+
+  article#post_list
+    h1 Posts
+    = each post in controller
+      .date= post.publishedAt
+      .title= post.title

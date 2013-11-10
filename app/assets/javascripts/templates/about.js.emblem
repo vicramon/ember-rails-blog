@@ -1,0 +1,7 @@
+section#main
+  article#about
+    h1 About / Contact
+    | Vic Ramon is an Ember consultant and enthusiast who made his way into Ember after working with Ruby and Rails for many years. He has written multiple Ember apps that are currently used in production. He thinks that Ember is awesome and feels awkward writing about himself in the third person.
+    br
+    br
+    | Vic currently lives in Jacksonville, Florida, would be glad to advise, help, or remote pair with you on your Ember project.
