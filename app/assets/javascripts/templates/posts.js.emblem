@@ -1,0 +1,4 @@
+| Hello Posts
+= each post in controller
+  = post.title
+  = post.text
