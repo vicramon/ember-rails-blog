@@ -1,3 +1,0 @@
-section#header
-  nav: linkTo 'about' | About / Contact
-  linkTo 'posts' tagName='h1' | Vic on Ember
