@@ -5,3 +5,7 @@ section#main
     br
     br
     | Vic currently lives in Jacksonville, Florida, would be glad to advise, help, or remote pair with you on your Ember project.
+    br
+    br
+    ' Email:
+    a href="mailto:vic@vicramon.com" vic@vicramon.com
