@@ -22,3 +22,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'quiet_assets'
 end
+
+group :test, :development do
+  gem 'qunit-rails'
+end
