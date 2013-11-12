@@ -5,5 +5,5 @@ App.Post = DS.Model.extend
   user: DS.belongsTo('user')
 
   prettyPublishedAt: ( ->
-    moment(@get('publishedAt')).format("MMMM Do YYYY")
+    moment(@get('publishedAt')).format("MMMM Do, YYYY")
   ).property('publishedAt')
