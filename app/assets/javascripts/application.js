@@ -4,4 +4,5 @@
 //= require ember
 //= require ember-init
 //= require ember-data
+//= require moment
 //= require_tree .
