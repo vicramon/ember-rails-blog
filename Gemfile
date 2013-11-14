@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.0.0"
 
+gem 'capybara'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'ember-rails'
 gem 'ember-source'
@@ -9,6 +10,7 @@ gem 'haml-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
 gem 'pg'
+gem 'poltergeist'
 gem 'pry'
 gem 'puma'
 gem 'rails', '4.0.0'
