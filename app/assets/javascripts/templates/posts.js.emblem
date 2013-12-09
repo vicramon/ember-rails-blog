@@ -1,6 +1,6 @@
 section#main
   article#welcome
-    |Hi! Welcome to Vic on Ember. I’m Vic Ramon, an Ember consultant and enthusiast. This blog is where I share share tips, tricks, code samples, and cool things happening in the Ember community.
+    |Hi! Welcome to Vic on Ember.
 
   article#post_list
     h1 Posts
