@@ -60,12 +60,11 @@ class EmberSeo
   end
 
   def start_message
-    puts "------------- EMBER SEO --------------\n\n"
-    puts "CRAWLING ALL THE THINGS...\n\n"
+    puts "Ember SEO Crawling...\n\n"
   end
 
   def done_message
-    puts "\n----- TOTALLY DONE. HIGH FIVE. ----------"
+    puts "\nDone crawling."
   end
 
 end
